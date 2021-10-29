@@ -1,0 +1,31 @@
+.price-container {
+  padding: 20px 60px;
+
+  .cur-price {
+    font-size: 70px;
+    letter-spacing: 0em;
+    color: #1A243A;
+    margin-bottom: 15px;
+
+    &::after {
+      font-size: 24px;
+      color: #BDBEBF;
+      content: "USD";
+      position: relative;
+      top: -25px;
+      left: 10px;
+    }
+  }
+
+  .diff {
+    font-size: 18px;
+
+    &.positive {
+      color: #67BF6B;
+    }
+
+    &.negative {
+      color: #ff5252;
+    }
+  }
+}

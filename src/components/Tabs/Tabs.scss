@@ -1,0 +1,24 @@
+.nav {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding-left: 40px;
+  border-bottom: 1px solid #EFF1F3;
+
+  li {
+    list-style: none;
+    padding: 18px;
+    margin-right: 5px;
+    color: #6F7177;
+    cursor: pointer;
+
+    &.active {
+      border-bottom: 3px solid #4B40EE;
+      color: #1A243A;
+    }
+  }
+}
+
+.tab-content {
+  padding: 60px;
+}

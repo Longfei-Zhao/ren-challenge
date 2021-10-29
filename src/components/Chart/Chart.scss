@@ -1,0 +1,50 @@
+.chart-container {
+  button {
+    color: #6F7177;
+    font-size: 18px;
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .operation-container {
+      button {
+        margin-right: 30px;
+      }
+    }
+
+    .period-container {
+      button {
+        padding: 5px 14px;
+        margin: 0 3px;
+        border-radius: 5px;
+
+        &.active {
+          background: #4B40EE;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+
+  .chart-container {
+    margin-top: 35px;
+    height: 350px;
+    border: 1px solid #E2E4E7;
+    border-top: none;
+
+    .custom-tooltip {
+      padding: 6px 14px;
+      background: #1A243A;
+      color: #ffffff;
+      border-radius: 5px;
+      font-size: 18px;
+    }
+  }
+}
+
+.recharts-tooltip-wrapper {
+  transform: translate(700px, 0) !important;
+}
